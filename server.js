@@ -6,11 +6,12 @@ var app = express();
 app.use(morgan('combined'));
 
 
-var articleone = {
-  title: "Article One | Neethu Nath",
-  heading: "Article One",
-  date: "Aug 14, 2017",
-  content: `<p>
+var articles = {
+  articleOne : { 
+    title: "Article One | Neethu Nath",
+    heading: "Article One",
+    date: "Aug 14, 2017",
+    content: `<p>
               This is the content for article one. This is a sample web page project created by me. 
               I'm learning html and css.
            </p>
@@ -22,6 +23,41 @@ var articleone = {
               This is the content for article one. This is a sample web page project created by me. 
               I'm learning html and css.
            </p>`
+  },           
+  articleTwo : {
+    title: "Article Two | Neethu Nath",
+    heading: "Article One",
+    date: "Aug 14, 2017",
+    content: `<p>
+              This is the content for article two. This is a sample web page project created by me. 
+              I'm learning html and css.
+           </p>
+           <p>
+              This is the content for article two. This is a sample web page project created by me. 
+              I'm learning html and css.
+           </p>
+           <p>
+              This is the content for article two. This is a sample web page project created by me. 
+              I'm learning html and css.
+           </p>`
+  },
+  articleThree : {
+    title: "Article Three | Neethu Nath",
+    heading: "Article Three",
+    date: "Aug 14, 2017",
+    content: `<p>
+              This is the content for article three. This is a sample web page project created by me. 
+              I'm learning html and css.
+           </p>
+           <p>
+              This is the content for article three. This is a sample web page project created by me. 
+              I'm learning html and css.
+           </p>
+           <p>
+              This is the content for article three. This is a sample web page project created by me. 
+              I'm learning html and css.
+           </p>`
+  },
 };
 
 function createTemplate (data) {
