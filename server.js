@@ -10,9 +10,18 @@ var articleone = {
   title: "Article One | Neethu Nath",
   heading: "Article One",
   date: "Aug 14, 2017",
-  content: '<p> This is the content for article one. This is a sample web page project created by me. I'm learning html and css.</p>
-            <p> This is the content for article one. This is a sample web page project created by me. I'm learning html and css.</p> 
-            <p> This is the content for article one. This is a sample web page project created by me. I'm learning html and css. </p>'
+  content: `<p>
+              This is the content for article one. This is a sample web page project created by me. 
+              I'm learning html and css.
+           </p>
+           <p>
+              This is the content for article one. This is a sample web page project created by me. 
+              I'm learning html and css.
+           </p>
+           <p>
+              This is the content for article one. This is a sample web page project created by me. 
+              I'm learning html and css.
+           </p>`
 };
 
 
