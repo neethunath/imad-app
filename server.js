@@ -26,7 +26,7 @@ var articles = {
   },           
   articleTwo : {
     title: "Article Two | Neethu Nath",
-    heading: "Article One",
+    heading: "Article Two",
     date: "Aug 14, 2017",
     content: `<p>
               This is the content for article two. This is a sample web page project created by me. 
